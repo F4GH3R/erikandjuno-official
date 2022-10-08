@@ -1,0 +1,33 @@
+@import "../global.css";
+
+/*=============================================
+=            info section            =
+=============================================*/
+
+.info{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 400vh;
+}
+
+.info-container{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 50px 200px 50px 200px;
+}
+
+/*=====  End of info section  ======*/
+
+
+/*=============================================
+=            The team            =
+=============================================*/
+
+
+
+/*=====  End of The team  ======*/
+
+
+

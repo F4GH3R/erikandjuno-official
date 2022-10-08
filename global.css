@@ -1,0 +1,123 @@
+:root{
+    --font: 'Hind', sans-serif;
+    /* --base: #a6aec0;
+    --baseDarker: #9CA4B4; */
+    --base: rgba(0, 0, 0, 0.5);
+    --baseDarker: rgba(0, 0, 0, 0.5);
+    /* --baseDarkerSave: #767c8b; */
+}
+
+body, html{
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font);
+    overflow-x: hidden;
+    /* background-color: var(--base); */
+    /* background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%); */
+    /* background-image: linear-gradient(to bottom, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
+    /* background-image: linear-gradient(to bottom, #0250c5 0%, #d43f8d 100%); */
+    /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+.main-article > section{
+    width: 100%;
+}
+
+h1, h2, h3{
+    margin: 0px;
+}
+
+h1{
+    font-size: 81px;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+}
+
+/*=============================================
+=            navBar            =
+=============================================*/
+
+#navlist {
+    z-index: 10;
+    background-color: rgba(44,52,76,1);
+    box-shadow: -2px 2px 10px black;
+    transition: 0.6s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 40px 10px;
+}
+
+#navlist-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px 320px 0px 10px;
+}
+
+#navlist-right a {
+    color: rgb(206, 206, 206);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+#smrtec-logo{
+    padding: 0px 10px 0px 320px;
+    width: 400px;
+    transition: 0.6s; 
+    height: 100px;
+    object-fit: cover;
+}
+
+/* #smrtec-logo > img{
+    height: 150px;
+} */
+
+#navlist a:hover {
+    color: #ffffff;
+}
+
+#navlist-right {
+    float: right;
+}
+
+
+
+.hamburger{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+/*=====  End of navBar  ======*/
+
+footer{
+    height: 550px;
+    color: white;
+}
+
+.copyright{
+    position: relative;
+    bottom: -25px;
+    left: 44%;
+    font-size: 13px;
+    color: #000000;
+}
