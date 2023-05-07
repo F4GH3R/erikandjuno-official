@@ -1,7 +1,10 @@
 @import "global.css";
 
 
-
+.contact-form-test{
+    margin-top: 300px;
+    background-color: red;
+}
 /*=============================================
 =            description            =
 =============================================*/
